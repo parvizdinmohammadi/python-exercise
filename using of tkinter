@@ -1,0 +1,14 @@
+from tkinter import *
+from tkinter.tix import LabelEntry
+
+window = Tk()
+window.geometry("600x600")
+window.title("instagram profile downloader")
+label = Label(window, text="Hello Parviz")
+label.pack()
+def hello():
+    print("Hello Parviz")
+button = Button(window, text="Click here" ,fg="red" ,bg="yellow", command="hello")
+button.pack()
+
+window.mainloop()
